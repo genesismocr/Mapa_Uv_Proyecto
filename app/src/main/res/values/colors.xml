@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#e00105</color>
+    <color name="textoDrawerItems">#8BC34A</color>
+    <color name="IconosDrawer">#757575</color>
+</resources>

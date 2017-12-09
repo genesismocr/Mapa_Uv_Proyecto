@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idCiberr"
+            android:icon="@drawable/ciber"
+            android:title="Cibers"/>
+        <item
+            android:id="@+id/idPapeleria"
+            android:icon="@drawable/papeleria"
+            android:title="Papelerias" />
+        <item
+            android:id="@+id/idFondaa"
+            android:icon="@drawable/rest"
+            android:title="Cocinas-economicas" />
+        <item
+            android:id="@+id/idFarmacia"
+            android:icon="@drawable/farmacia"
+            android:title="Farmacias" />
+        <item
+            android:id="@+id/idDeportivo"
+            android:icon="@drawable/gym"
+            android:title="Unidad-deportiva" />
+        <item
+            android:id="@+id/idOxxo"
+            android:icon="@drawable/oxxo"
+            android:title="Oxxo/Yepas" />
+    </group>
+
+    <!--   <item android:title="Llega a tu destino mediante fotos">
+           <menu>
+               <item
+                   android:id="@+id/idInstrucciones"
+                   android:icon="@drawable/ic_menu_share"
+                   android:title="Instrucciones" />
+               <item
+                   android:id="@+id/idDestino"
+                   android:icon="@drawable/ic_menu_send"
+                   android:title="Ir a mi destino" />
+           </menu>
+       </item> -->
+
+</menu>

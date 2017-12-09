@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/idimg"
+        android:layout_width="350dp"
+        android:layout_height="238dp"
+        app:srcCompat="@drawable/main_mapa3"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <AutoCompleteTextView
+        android:id="@+id/txtBuscar"
+        android:layout_width="245dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:drawableLeft="@drawable/search"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idimg"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <Button
+        android:id="@+id/btnIr"
+        android:layout_width="87dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="39dp"
+        android:layout_marginTop="81dp"
+        android:text="Ir"
+        android:background="@drawable/buttonstyle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/txtBuscar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idimg"
+        app:layout_constraintVertical_bias="0.97" />
+
+    <ImageView
+        android:id="@+id/idimg2"
+        android:layout_width="331dp"
+        android:layout_height="238dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnIr"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idimg"
+        app:layout_constraintVertical_bias="0.2"
+        app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+    <ImageButton
+        android:id="@+id/boton_img"
+        android:layout_width="34dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="false"
+        android:background="@null"
+        android:cropToPadding="false"
+        android:scaleType="fitStart"
+        android:tint="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/txtBuscar"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="@+id/txtBuscar"
+        app:layout_constraintRight_toLeftOf="@+id/btnIr"
+        app:layout_constraintTop_toBottomOf="@+id/idimg2"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/borrar" />
+
+</android.support.constraint.ConstraintLayout>
